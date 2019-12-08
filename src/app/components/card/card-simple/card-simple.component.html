@@ -1,0 +1,15 @@
+<div id="card-container">
+  <div id="card-header">
+    <i *ngIf="iconClasses" [class]="iconClasses"></i>
+
+    <div id="card-title">
+      <h5 *ngIf="title">{{title}}</h5>
+      <h6 *ngIf="subTitle">{{subTitle}}</h6>
+    </div>
+
+  </div>
+
+  <div id="card-body">
+    <ng-content></ng-content>
+  </div>
+</div>

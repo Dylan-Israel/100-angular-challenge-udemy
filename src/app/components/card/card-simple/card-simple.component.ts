@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-simple',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-simple.component.scss']
 })
 export class CardSimpleComponent {
-
+  @Input() public title = '';
+  @Input() public subTitle = '';
+  @Input() public iconClasses = '';
 }
