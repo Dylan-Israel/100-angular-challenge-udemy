@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway',
+    sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+$green: #40c980;
+$blue: #007acc;
+$black: #1e1e1e;
+$light-grey: #929293;
+$orange: #c97e5a;
+$yellow: #e5e510;
+$red: #ff6058;
+
+$tablet: 768px;
+$mobile: 425px;
