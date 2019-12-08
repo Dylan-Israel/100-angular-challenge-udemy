@@ -1,0 +1,11 @@
+<div id="accordion-container">
+  <div id="accordion-item" *ngFor="let accordionItem of accordionItems">
+    <div id="accordion-header" (click)="toggle(accordionItem)">
+      <h4>{{accordionItem.title}}</h4>
+      <i class="fas fa-chevron-down" [class.is-expanded]="accordionItem.isExpanded"></i>
+    </div>
+    <div id="accordion-content" [class.is-expanded]="accordionItem.isExpanded">
+      <p>{{accordionItem.content}}</p>
+    </div>
+  </div>
+</div>
