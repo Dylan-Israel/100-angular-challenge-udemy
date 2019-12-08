@@ -8,10 +8,13 @@ This repo is for the <i>100 Angular Challenge</i> course on Udemy.
 
 ## Components
 1. Card Simple
+2. Accordion
 
-
-### Items Covered
+### Angular Items Covered
 - *ngIf
 - ng-content
 - @Input()
 - Property bindings
+- Dynamically add a css class
+- (click) event
+- *ngFor
