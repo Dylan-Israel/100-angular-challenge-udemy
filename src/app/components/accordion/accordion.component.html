@@ -5,7 +5,8 @@
       <i class="fas fa-chevron-down" [class.is-expanded]="accordionItem.isExpanded"></i>
     </div>
     <div id="accordion-content" [class.is-expanded]="accordionItem.isExpanded">
-      <p>{{accordionItem.content}}</p>
+      <app-rich-text-viewer (isValid)="validateHtml($event)" [htmlText]="accordionItem.content"></app-rich-text-viewer>
+      <p class="error" *ngIf="hasEmptyHtml">Error: HTML Failed Validation</p>
     </div>
   </div>
 </div>

@@ -30,6 +30,10 @@ $padding: 10px 20px;
       &.is-expanded {
         display: block;
       }
+
+      .error {
+        color: $red;
+      }
     }
   }
 }

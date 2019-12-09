@@ -8,6 +8,7 @@ import { AccordionListItem } from './models/accordion-list-item.model';
 })
 export class AccordionComponent {
   @Input() public accordionItems: AccordionListItem[] = [];
+  public hasEmptyHtml = false;
 
   public toggle(listItem: AccordionListItem): void {
     if (listItem.isExpanded) {
@@ -15,5 +16,9 @@ export class AccordionComponent {
     } else {
       this.accordionItems.forEach((item) => item.isExpanded = (item === listItem));
     }
+  }
+
+  public validateHtml(isValid: boolean): void {
+    this.hasEmptyHtml = !isValid;
   }
 }
