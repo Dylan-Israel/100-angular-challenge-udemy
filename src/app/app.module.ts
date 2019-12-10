@@ -5,6 +5,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { AlertComponent } from './components/alert/alert.component';
 import { CardSimpleComponent } from './components/card/card-simple/card-simple.component';
 import { RichTextViewerComponent } from './components/rich-text-viewer/rich-text-viewer.component';
+import { DebounceClickDirective } from './directive/debounce-click/debounce-click.directive';
 import { TruncatePipe } from './pipes/truncate/truncate.pipe';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { TruncatePipe } from './pipes/truncate/truncate.pipe';
     AccordionComponent,
     AlertComponent,
     CardSimpleComponent,
+    DebounceClickDirective,
     RichTextViewerComponent,
     TruncatePipe
   ],

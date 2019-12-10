@@ -1,9 +1,5 @@
 <app-card-simple [title]="'Truncate Pipe'">
 
-  <p>
-    {{'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi deserunt, ex inventore esse placeat quas itaque
-    asperiores laboriosam impedit fuga assumenda, blanditiis commodi maxime, iste quibusdam tenetur quisquam similique?'
-    | appTruncate : 50 }}
-  </p>
+  <button appDebounceClick (debounceClick)="log()">Log</button>
 
 </app-card-simple>
