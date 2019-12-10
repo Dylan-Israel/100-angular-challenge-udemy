@@ -5,6 +5,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { AlertComponent } from './components/alert/alert.component';
 import { CardSimpleComponent } from './components/card/card-simple/card-simple.component';
 import { RichTextViewerComponent } from './components/rich-text-viewer/rich-text-viewer.component';
+import { TruncatePipe } from './pipes/truncate/truncate.pipe';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { RichTextViewerComponent } from './components/rich-text-viewer/rich-text
     AccordionComponent,
     AlertComponent,
     CardSimpleComponent,
-    RichTextViewerComponent
+    RichTextViewerComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule
