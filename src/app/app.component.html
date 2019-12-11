@@ -1,3 +1,5 @@
-<app-card-simple [title]="'Percent Format Pipe'">
-  {{ 1000 | percentFormat: 10999}}
+<app-card-simple [title]="'Progress Bar Component'">
+  <app-progress-bar [value]="value"></app-progress-bar>
+
+  <button (click)="update();">Update</button>
 </app-card-simple>

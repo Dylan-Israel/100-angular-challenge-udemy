@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public log() {
-    console.log('Hello World');
+  public value = 10;
+
+  public update() {
+    this.value = 70;
   }
 }

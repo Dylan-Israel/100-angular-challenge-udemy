@@ -6,6 +6,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { AlertComponent } from './components/alert/alert.component';
 import { CardSimpleComponent } from './components/card/card-simple/card-simple.component';
 import { CreditCardInputComponent } from './components/credit-card-input/credit-card-input.component';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { RichTextViewerComponent } from './components/rich-text-viewer/rich-text-viewer.component';
 import { DebounceClickDirective } from './directive/debounce-click/debounce-click.directive';
 import { PercentFormatPipe } from './pipes/percent-format/percent-format.pipe';
@@ -20,6 +21,7 @@ import { TruncatePipe } from './pipes/truncate/truncate.pipe';
     CreditCardInputComponent,
     DebounceClickDirective,
     PercentFormatPipe,
+    ProgressBarComponent,
     RichTextViewerComponent,
     TruncatePipe
   ],
