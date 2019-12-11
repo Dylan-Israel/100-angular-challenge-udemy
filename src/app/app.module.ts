@@ -8,6 +8,7 @@ import { CardSimpleComponent } from './components/card/card-simple/card-simple.c
 import { CreditCardInputComponent } from './components/credit-card-input/credit-card-input.component';
 import { RichTextViewerComponent } from './components/rich-text-viewer/rich-text-viewer.component';
 import { DebounceClickDirective } from './directive/debounce-click/debounce-click.directive';
+import { PercentFormatPipe } from './pipes/percent-format/percent-format.pipe';
 import { TruncatePipe } from './pipes/truncate/truncate.pipe';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { TruncatePipe } from './pipes/truncate/truncate.pipe';
     CardSimpleComponent,
     CreditCardInputComponent,
     DebounceClickDirective,
+    PercentFormatPipe,
     RichTextViewerComponent,
     TruncatePipe
   ],
