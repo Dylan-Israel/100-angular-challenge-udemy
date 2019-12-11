@@ -1,5 +1,4 @@
-<app-card-simple [title]="'Truncate Pipe'">
+<app-card-simple [title]="'Credit Card Input Component'">
 
-  <button appDebounceClick (debounceClick)="log()">Log</button>
-
+  <app-credit-card-input [creditCardNumber]="'4321432143214321'" [isReadOnly]="false"></app-credit-card-input>
 </app-card-simple>
