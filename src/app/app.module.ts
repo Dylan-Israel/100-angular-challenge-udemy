@@ -10,7 +10,8 @@ import { CreditCardInputComponent } from './components/credit-card-input/credit-
 import { EmailFormComponent } from './components/email-form/email-form.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { RichTextViewerComponent } from './components/rich-text-viewer/rich-text-viewer.component';
-import { DebounceClickDirective } from './directive/debounce-click/debounce-click.directive';
+import { DebounceClickDirective } from './directives/debounce-click/debounce-click.directive';
+import { DirectivesComponent } from './directives/directives.component';
 import { PercentFormatPipe } from './pipes/percent-format/percent-format.pipe';
 import { TruncatePipe } from './pipes/truncate/truncate.pipe';
 
@@ -23,6 +24,7 @@ import { TruncatePipe } from './pipes/truncate/truncate.pipe';
     ComponentsComponent,
     CreditCardInputComponent,
     DebounceClickDirective,
+    DirectivesComponent,
     EmailFormComponent,
     PercentFormatPipe,
     ProgressBarComponent,
